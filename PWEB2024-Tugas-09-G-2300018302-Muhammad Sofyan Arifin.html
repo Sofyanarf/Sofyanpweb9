@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINTAK PHP DASAR</title>
+    <link rel="stylesheet" href="pweb.css">
+</head>
+<body>
+    <p>Selamat Datang Di Penghitungan Gaji Karyawan</p>
+    <form method="POST" action="pweb.php">
+        <label for="gaji">masukkan gaji anda (Rp):</label>
+        <input type="number" id="gaji" name="gaji" required>
+        <br>
+        <label for="pajak"> masukkan Pajak berdasarkan gaji anda (%):</label>
+        <input type="number" id="pajak" name="pajak" step="0.01" required>
+        <br>
+        <br>
+        <p>Kalkulator Perbandingan Nilai</p>
+        <label for="nilai1"> Masukkan Nilai A:</label>
+        <input type="number" id="nilai1" name="nilai1" required>
+        <br>
+        <label for="nilai2">Masukkan Nilai B:</label>
+        <input type="number" id="nilai2" name="nilai2" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
